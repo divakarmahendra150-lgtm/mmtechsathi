@@ -28,13 +28,12 @@ SECRET_KEY = 'SecretKey'
 DEBUG = 'On'
 
 ALLOWED_HOSTS = [
-    '127.0.0.1',
-    'localhost',
-    'mm-tech-sathi.vercel.app',
+    "mmtechsathi.onrender.com"
 ]
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
+    "https://mm-tech-sathi.vercel.app"
 ]
 
 GOOGLE_SHEET_ID = os.environ.get("GOOGLE_SHEET_ID")
