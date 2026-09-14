@@ -29,8 +29,7 @@ DEBUG = 'On'
 
 ALLOWED_HOSTS = [
     "mmtechsathi.onrender.com",
-    "localhost",
-    "127.0.0.1",
+    
 ]
 
 CORS_ALLOWED_ORIGINS = [
